@@ -1,0 +1,5 @@
+This is a experimental tool to automatically detect some of the hierarchical smell patterns as defined in Chapter 6 of the software engineering textbook "Refactoring for Software Design Smells: Managing Technical Debt " ( Suryanarayana, Ganesh Samarthyam, Sharma, 2014) in Java systems.
+
+It initially intends to build a model of the hierarchy and detect the Deep, Wide, Multipath and circular hiearchies as defined in this book. I was doing this for fun / experimentation while looking for a job so there are no guarantees about the functionality of this tool. If you want to use it please adhere the GPL 3 rules.
+
+I am open to any pull requests, recommendations, 'constrictive' feedback but essentially I wrote this code while in Uni hence the mess. I started by mavenizing the project and added checkstyle / findbugs to the build. I intend to refactor clean-up, simplify and document at some point, if you need help because you want to use before that please don't hesitate to contact me on my github email.
