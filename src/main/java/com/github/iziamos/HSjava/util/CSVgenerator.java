@@ -19,7 +19,7 @@ public final class CSVgenerator {
     public static void generate(final List<ClazzNode> input)
             throws IOException {
 
-        Path outputPath = Files.createFile(Paths.get("./Java8.csv"));
+        Path outputPath = Files.createFile(Paths.get("./preparse.csv"));
         OutputStreamWriter fileWriter = new OutputStreamWriter(
                 new FileOutputStream(outputPath.toString()),
                 Charset.defaultCharset());
