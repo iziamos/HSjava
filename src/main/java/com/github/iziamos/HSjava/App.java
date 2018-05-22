@@ -34,12 +34,8 @@ public final class App {
 
         List<ClazzNode> finalTree;
         if (options.getIncludeJavaLibs()) {
-            List<ClazzNode> javaTypes = tb.buildTreeCSV("./preparse.csv"); // line
-                                                                        // of
-                                                                        // code
-                                                                        // mntn
-                                                                        // in
-                                                                        // RDME
+            List<ClazzNode> javaTypes =
+                tb.buildTreeCSV("./preparse.csv");
 
             finalTree = TreeMethods.fixTree(projectTypes, javaTypes);
             TreeMethods.pruneTree(finalTree);
